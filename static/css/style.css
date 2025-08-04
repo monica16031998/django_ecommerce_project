@@ -1,0 +1,51 @@
+.carousel-item img{
+    /* object-fit: cover; */
+    object-position: top;
+    height: 80vh;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.old_price{
+    font-weight: bold;
+    color:red;
+}
+
+.new_price{
+    font-weight: bold;
+    background-color: green;
+    color:white;
+    padding:2px;
+    border-radius: 5px;
+}
+
+.product-image {
+    width: 300px;
+    height: 250px;
+    /* object-fit: cover; */
+    border-radius: 10px;
+}
+
+.product-img{
+     height: 300px;
+    /* object-fit: cover; */
+}
+
+.pic-box{
+    position:relative;
+}
+
+.hot{
+    background-color:orangered;
+    color:white;
+    font-weight:bold;
+    display:inline;
+    border-radius:5px;
+    position:absolute;
+    top:0;
+    z-index:10;
+
+}
