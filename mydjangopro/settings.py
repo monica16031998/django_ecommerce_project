@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-26gv+a=!&h3fgeut*j^1x^cbivtjl#3japh51v4_f4zbnkd(_b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['Monica1603.pythonanywhere.com']
 
 
 # Application definition
@@ -78,10 +78,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ecommerce',
-        'USER': 'root',
+        'USER': 'Monica1603',
         'PASSWORD': 'Monica@1998',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'HOST': 'Monica1603.mysql.pythonanywhere-services.com',
     }
 }
 
